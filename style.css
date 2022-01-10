@@ -1,0 +1,29 @@
+body, html {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
+#bottom {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-end;
+    /* height: 20vh;
+    width: 100%;
+    padding: 1rem; */
+}
+/* 
+red-block-button {
+    display: flex;
+    align-self: flex-end;
+} */
